@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         val dog = Predator( "Dog", 150.0, "mammals")
         val cat = Predator( "Cat", 30.0, "mammals")
 
-        val list= listOf(chicken,elephant,dog,cat)
-        println(list) //Log.d
+        val list = listOf(chicken,elephant,dog,cat)
+        println(list)//Log.d
     }
 }
